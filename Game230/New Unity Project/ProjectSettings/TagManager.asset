@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - coin
   layers:
   - Default
   - TransparentFX
@@ -13,14 +14,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - interactibles
+  - 'Foreground '
+  - Player
+  - Climbing
+  - Background
+  - Water
+  - Enemy
+  - Hazards
   - 
   - 
   - 
@@ -40,4 +41,31 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2488980409
+    locked: 0
+  - name: Water
+    uniqueID: 1862613867
+    locked: 0
+  - name: foreground
+    uniqueID: 2965262153
+    locked: 0
+  - name: 'foreound fixes '
+    uniqueID: 2702916327
+    locked: 0
+  - name: interactable
+    uniqueID: 2986649835
+    locked: 0
+  - name: Enemy
+    uniqueID: 4074614291
+    locked: 0
+  - name: Hazards
+    uniqueID: 2343430211
+    locked: 0
+  - name: Climbing
+    uniqueID: 2685873843
+    locked: 0
+  - name: player
+    uniqueID: 1661141601
     locked: 0
